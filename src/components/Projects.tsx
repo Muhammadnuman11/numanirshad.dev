@@ -25,7 +25,7 @@ const projects = [
     title: "Grocery Web App",
     description: "A modern grocery web application with a mobile-first responsive design, featuring category browsing, product search, shopping cart, loyalty rewards, and a seamless shopping experience.",
     tech: ["Next.js 15", "Tailwind CSS", "REST APIs"],
-    live: "https://grocery-frontend-lilac.vercel.app/",
+    live: "https://grocery-web-app-lime.vercel.app/",
   },
   {
     title: "QR Code Dine-In Ordering Web App",
