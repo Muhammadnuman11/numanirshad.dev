@@ -26,19 +26,19 @@ export const Hero = () => {
             I'm a{" "}
             <span className="text-gradient">Full-Stack</span>
             <br />
-            Developer
+            Software Engineer
           </h1>
 
           {/* Subtitle with typing effect */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 font-mono opacity-0 animate-fade-in-up animate-delay-200">
             <span className="text-primary">const</span> stack = [
             <span className="text-accent">'MERN'</span>,{" "}
-            <span className="text-accent">'Next.js'</span>];
+            <span className="text-accent">'Next.js'</span>,{" "}
+            <span className="text-accent">'AI/Automation'</span>];
           </p>
 
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in-up animate-delay-300">
-            Crafting exceptional digital experiences with MongoDB, Express, React, Node.js, and Next.js. 
-            Passionate about clean code, modern design, and scalable applications.
+            Building production-grade SaaS platforms, scalable web applications, and automation workflows with Next.js, React, Node.js, MongoDB, Stripe, and modern AI tools.
           </p>
 
           {/* CTA Buttons */}

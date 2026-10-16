@@ -46,8 +46,7 @@ export const About = () => {
                 </p>
                 
                 <p className="text-muted-foreground leading-relaxed">
-                  My approach combines clean, maintainable code with stunning user interfaces. 
-                  I believe that great software should not only work flawlessly but also provide an exceptional user experience.
+                  My workflow spans product strategy, architecture, REST API design, frontend implementation, deployment, and performance optimization. I have worked on multi-tenant SaaS products, international client projects, and fast-moving digital experiences where clean code and measurable business impact matter.
                 </p>
   
                 {/* Stats */}
@@ -57,12 +56,12 @@ export const About = () => {
                     <div className="text-xs text-muted-foreground font-mono">Years Exp</div>
                   </div>
                   <div className="text-center p-4 bg-muted/30 rounded-lg border border-border">
-                    <div className="text-2xl font-bold text-primary">20+</div>
-                    <div className="text-xs text-muted-foreground font-mono">Projects</div>
-                  </div>
-                  <div className="text-center p-4 bg-muted/30 rounded-lg border border-border">
                     <div className="text-2xl font-bold text-primary">5+</div>
                     <div className="text-xs text-muted-foreground font-mono">Clients</div>
+                  </div>
+                  <div className="text-center p-4 bg-muted/30 rounded-lg border border-border">
+                    <div className="text-2xl font-bold text-primary">20+</div>
+                    <div className="text-xs text-muted-foreground font-mono">Projects</div>
                   </div>
                 </div>
               </div>

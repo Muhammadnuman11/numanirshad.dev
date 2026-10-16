@@ -5,37 +5,37 @@ const skillCategories = [
     title: "Frontend",
     icon: Layout,
     color: "text-primary",
-    skills: ["React.js", "Next.js", "Tailwind CSS", "Redux"],
+    skills: ["React.js", "Next.js", "TypeScript", "JavaScript", "Redux", "Tailwind CSS", "HTML5", "CSS3/SCSS"],
   },
   {
     title: "Backend",
     icon: Server,
     color: "text-accent",
-    skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth"],
+    skills: ["Node.js", "Express.js", "REST APIs", "Firebase", "Python (Basics)", "JWT Auth"],
   },
   {
     title: "Database",
     icon: Database,
     color: "text-primary",
-    skills: ["MongoDB", "Mongoose", "Firebase"],
+    skills: ["MongoDB", "Firebase", "Data Modeling", "Query Optimization"],
   },
   {
-    title: "DevOps",
+    title: "Deployment & Integrations",
     icon: GitBranch,
     color: "text-accent",
-    skills: ["Git", "AWS", "Vercel", "CI/CD"],
+    skills: ["Vercel", "DigitalOcean", "CI/CD", "Stripe", "Saferpay", "WordPress"],
   },
   {
     title: "UI/UX",
     icon: Palette,
     color: "text-primary",
-    skills: ["Figma", "Responsive Design", "Animations"],
+    skills: ["Figma", "Responsive Design", "Pixel-perfect UI", "Component Design", "Animations"],
   },
   {
-    title: "Other",
+    title: "AI / Automation",
     icon: Code,
     color: "text-accent",
-    skills: ["n8n", "API Design", "Performance", "SEO"],
+    skills: ["n8n", "Ollama", "Python Automation", "Machine Learning Fundamentals", "Workflow Automation"],
   },
 ];
 
@@ -56,7 +56,7 @@ export const Skills = () => {
 
         {/* MERN Stack Highlight */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
-          {["NextJS", "ReactJS", "MongoDB", "Express",  "Node.js", "ReduxJS", "n8n" ].map((tech, index) => (
+          {["Next.js", "React.js", "MongoDB", "Node.js", "Express.js", "Stripe", "Saferpay", "n8n", "Python", "Firebase"].map((tech, index) => (
             <div
               key={tech}
               className="px-6 py-3 bg-primary/10 border border-primary/30 rounded-full font-mono text-primary font-semibold hover:bg-primary/20 hover:scale-105 transition-all duration-300 cursor-default"
